@@ -1,5 +1,12 @@
 import React from "react";
 
+import {
+  heroSectionDropDownData,
+  heroSectionDropDownData2,
+} from "../../../../Constants/Data";
+import HeroDropdown from "../../../Container/Dropdowns/HeroDropdown";
+import HeroDropdown2 from "../../../Container/Dropdowns/HeroDropdown2";
+
 import "./Section1.css";
 
 function Section1() {
@@ -18,16 +25,41 @@ function Section1() {
 
         <div className="card-container">
           <div className="card1">
-            <div>Model</div>
-            <div>Manufacturer</div>
-            <div>Min Year</div>
-            <div>Max Year</div>
-            <div>Min Length</div>
-            <div>Max Length</div>
-            <div>Prime Pooping Position</div>
+            <div className="card1-content">
+              {heroSectionDropDownData.map((item, index) => {
+                return (
+                  <HeroDropdown
+                    lastIndex={heroSectionDropDownData.length - 1}
+                    index={index}
+                    key={index}
+                    name={item.name}
+                    options={item.options}
+                    text={item.text}
+                  />
+                );
+              })}
+            </div>
           </div>
 
-          <div className="card2">Card 2</div>
+          <div className="card2">
+            <div className="card2-content">
+              {heroSectionDropDownData2.map((item, index) => {
+                return (
+                  <HeroDropdown2
+                    lastIndex={heroSectionDropDownData2.length - 1}
+                    index={index}
+                    key={index}
+                    name={item.name}
+                    options={item.options}
+                    text={item.text}
+                  />
+                );
+              })}
+            </div>
+            <button type="button" className="searchBtn">
+              Search
+            </button>
+          </div>
         </div>
       </div>
     </div>

@@ -84,18 +84,14 @@ function Navbar1() {
                 </NavLink>
               </li>
             </ul>
+          </div>
+          <div className="nav2-center">
             {/* <img
               src={require("../../Assets/Images/Logo.png")}
               alt=""
               className="logo"
-            /> */}
-          </div>
-          <div className="nav2-center">
-            <img
-              src={require("../../Assets/Images/Logo.png")}
-              alt=""
-              className="logo"
-            />
+            /> */}{" "}
+            <h1 className="logo">ASKRVDB</h1>
           </div>
           <div className="nav2-right">
             <div className="nav-div">

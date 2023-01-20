@@ -1,0 +1,72 @@
+._item {
+  width: 49%;
+
+  color: #00669e;
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+}
+.menu-card2 {
+  position: absolute;
+  width: 47%;
+  z-index: 2000;
+}
+
+.menu-card2 li {
+  list-style: none;
+  border: 2px solid #b1b1b1;
+  border-radius: 8px;
+  height: 3rem;
+  background-color: #ffffff;
+  color: #b1b1b1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.firstMenu-card2 {
+  position: absolute;
+  width: 100%;
+  z-index: 2000;
+}
+.firstMenu-card2 li {
+  list-style: none;
+  border: 2px solid #b1b1b1;
+  border-radius: 8px;
+  height: 3rem;
+  background-color: #ffffff;
+  color: #b1b1b1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first_Item {
+  width: 100%;
+
+  color: #00669e;
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+}
+.dropdown_button {
+  background-color: #ffffff;
+  color: #b1b1b1;
+  border-radius: 8px;
+  width: 100%;
+  height: 3rem;
+  border: 2px solid #00669e;
+}
+
+.first-btn1 {
+  height: 3rem;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #b1b1b1;
+  width: 100%;
+  border-color: #00669e;
+}
