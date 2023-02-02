@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { motion, useAnimation } from "framer-motion";
 
 import {
   heroSectionDropDownData,
   heroSectionDropDownData2,
 } from "../../../../Constants/Data";
+import SearchIcon from "@mui/icons-material/Search";
+
 import HeroDropdown from "../../../Container/Dropdowns/HeroDropdown";
 import HeroDropdown2 from "../../../Container/Dropdowns/HeroDropdown2";
 
@@ -14,12 +17,11 @@ function Section1() {
     <div>
       <div className="container">
         <div className="item1">
-          <div className="hero-content">
-            <div className="text-container">
-              <h1>
-                We Have A Great Selection of <br /> New And Used RV Cars
-              </h1>
-            </div>
+          <div className="text-container">
+            <h1>
+              RV Insights <br /> Discover the best RVs with in-depth <br />
+              Reviews and Comparisons
+            </h1>
           </div>
         </div>
 
@@ -56,7 +58,8 @@ function Section1() {
                 );
               })}
             </div>
-            <button type="button" className="searchBtn">
+            <button className="search-button">
+              <SearchIcon />
               Search
             </button>
           </div>

@@ -1,0 +1,64 @@
+.OurStory-container {
+  height: 125vh;
+
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.2fr 0.8fr;
+  z-index: 100;
+}
+.OurStory-header {
+  grid-row: span 1;
+  grid-column: 1/3;
+
+  background-image: url("../../../Svg/ourStory-header.svg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.OurStory-headerH1 {
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  color: white;
+}
+.OurStory-rv {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../../Svg/ourStory-rv.svg");
+  background-size: cover;
+  background-position: center;
+}
+.OurStory-contentContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.OurStory-content {
+  width: 90%;
+  height: 80%;
+}
+.OurStory-contentH1 {
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  color: #00669e;
+}
+.OurStory-contentFirstPara {
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  margin-top: 0.7rem;
+}
+.OurStory-contentSecondPara {
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  margin-top: 2.5rem;
+}

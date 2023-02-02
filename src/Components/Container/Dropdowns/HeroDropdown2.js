@@ -1,28 +1,36 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import "./HeroDropdown2.css";
-import { IconButton } from "@material-ui/core";
-import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
+
+import dropDown_icon from "../../Svg/dropDown_icon.svg";
 function HeroDropdown2({ name, text, options, index }) {
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const menuRef = useRef();
+  const iconRef = useRef();
+  window.addEventListener("click", (e) => {
+    if (e.target !== menuRef.current && e.target !== iconRef.current) {
+      setDropdownOpen(false);
+    }
+  });
 
   return (
-    <div className={index === 0 ? "first_Item" : "_item"}>
+    <div className="_item">
       {name} <br />
       <button
+        ref={menuRef}
         onClick={() => setDropdownOpen((prev) => !prev)}
-        className={
-          index === 0
-            ? "first-btn1"
-            : `dropdown_button ${dropdownOpen ? "open" : ""}`
-        }
+        className={`dropdown_button ${dropdownOpen ? "open" : ""}`}
       >
         {text}
-        <IconButton edge="end">
-          <ArrowDropDownIcon />
-        </IconButton>
+        <img
+          src={dropDown_icon}
+          alt="icon"
+          className="dropDown-icon"
+          ref={iconRef}
+          onClick={() => setDropdownOpen((prev) => !prev)}
+        />
       </button>
       {dropdownOpen && (
-        <ul className={index === 0 ? "firstMenu-card2" : "menu-card2"}>
+        <ul className="menu-card2">
           {options.map((item, index) => {
             return <li key={index}>{item.name}</li>;
           })}

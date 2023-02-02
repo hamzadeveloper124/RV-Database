@@ -1,42 +1,13 @@
-.navbar1 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  width: 100%;
-  margin: auto;
-  z-index: 1000;
-  padding: 1rem 2rem;
-}
-
-.nav-left {
-  flex: 1;
-}
-
-.nav-center {
-  flex: 1;
-  text-align: center;
-  font-weight: 400;
-}
-
-.nav-right {
-  flex: 1;
-  text-align: right;
-  font-weight: 400;
-}
-
 .navbar2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   width: 100%;
   margin: auto;
   z-index: 1000;
   color: #ffffff;
   background-color: #00669e;
   padding: 1.5rem 2rem;
-
   box-shadow: 0px 9px 17px rgba(0, 0, 0, 0.69);
 }
 .nav2-left {
@@ -47,9 +18,7 @@
   display: flex;
   align-items: center;
   width: 20%;
-
   text-align: center;
-
   justify-content: center;
 }
 .logo {
@@ -61,7 +30,7 @@
 }
 .nav2-right {
   display: flex;
-  justify-content: space-between;
+  justify-content: right;
   align-items: center;
   width: 40%;
 }
@@ -74,7 +43,6 @@
 .nav-list {
   display: flex;
   justify-content: space-between;
-
   text-align: center;
 }
 .links {
@@ -93,8 +61,6 @@
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
-
-  /* padding: 4px 26px; */
   margin: 0px 15px;
 
   text-transform: uppercase;
@@ -113,7 +79,7 @@
   border: 2px solid #00669e;
   border-radius: 30px;
   color: #ffffff;
-  background-color: #00669e;
+  background-color: #003653;
 
   text-align: center;
 
@@ -147,4 +113,8 @@
 }
 .dropdown-content li {
   list-style: none;
+}
+.SignUp-icon {
+  margin-top: 0.5rem;
+  margin-right: 1rem;
 }

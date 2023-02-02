@@ -1,0 +1,174 @@
+.footer {
+  height: 40vh;
+
+  display: flex;
+  flex-direction: column;
+}
+.footer1 {
+  height: 35vh;
+
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #00669e;
+}
+.nav_link {
+  all: initial;
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+}
+.left1 {
+  height: 100%;
+  width: 17.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left1 li {
+  list-style-type: none;
+  padding: 10px 0;
+}
+.left2 {
+  height: 100%;
+  width: 17.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left2 li {
+  list-style-type: none;
+  padding: 10px 0;
+}
+.right1 {
+  height: 100%;
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right1 li {
+  list-style-type: none;
+  padding: 10px 0;
+}
+.right1 ul {
+  margin-bottom: 2.4rem;
+}
+.right1 li:nth-child(1) {
+  padding-top: 0;
+}
+.right2 {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.right2 h1 {
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  color: #ffffff;
+  margin-bottom: 0.8rem;
+}
+
+.logo_container {
+  width: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fb-container {
+  width: 3rem;
+  height: 3rem;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.fb-container:hover {
+  background-color: #ffffff;
+}
+.fb-container:hover .fb {
+  color: #00669e;
+}
+.fb {
+  /* fill: #ffffff; */
+  color: #ffffff;
+  cursor: pointer;
+}
+.fb:hover {
+  color: #00669e;
+}
+.twt-container {
+  width: 3rem;
+  height: 3rem;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  cursor: pointer;
+}
+.twt-container:hover {
+  background-color: #ffffff;
+}
+.twt-container:hover .twt {
+  color: #00669e;
+}
+.twt {
+  /* fill: #ffffff; */
+  color: #ffffff;
+  cursor: pointer;
+}
+.twt:hover {
+  color: #00669e;
+}
+.linkedin-container {
+  width: 3rem;
+  height: 3rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.linkedin-container:hover {
+  background-color: #ffffff;
+}
+.linkedin-container:hover .linkedin {
+  color: #00669e;
+}
+.linkedin {
+  /* fill: #ffffff; */
+  color: #ffffff;
+  cursor: pointer;
+}
+.linkedin:hover {
+  color: #00669e;
+}
+.footer2 {
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #004165;
+}
+.footer2 h1 {
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 500;
+
+  color: rgba(255, 255, 255, 0.52);
+  font-size: 22px;
+}

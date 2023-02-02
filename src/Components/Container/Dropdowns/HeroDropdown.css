@@ -12,36 +12,68 @@
   position: absolute;
   width: 47%;
   z-index: 2000;
+  max-height: 12rem;
+  overflow-y: scroll;
+  background-color: #ffffff;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.45);
+  border-radius: 8px;
 }
 
 .menu-card1 li {
   list-style: none;
-  border: 2px solid #b1b1b1;
-  border-radius: 8px;
+  border: 2px solid #ffffff;
+  border-radius: 7px;
   height: 3rem;
-  background-color: #ffffff;
-  color: #b1b1b1;
+  background-color: #f2f2f2;
+  color: black;
+
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 12px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.menu-card1 li:hover {
+  background: #00669e;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.63);
+  color: #ffffff;
 }
 .lastMenu-card1 {
   position: absolute;
   width: 100%;
   z-index: 2000;
+  max-height: 12rem;
+  overflow-y: scroll;
+  background-color: #ffffff;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.45);
+  border-radius: 8px;
 }
 .lastMenu-card1 li {
   list-style: none;
-  border: 2px solid #b1b1b1;
-  border-radius: 8px;
+  border: 2px solid #ffffff;
+  border-radius: 7px;
   height: 3rem;
-  background-color: #ffffff;
-  color: #b1b1b1;
+  background-color: #f2f2f2;
+  color: black;
+
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 12px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.lastMenu-card1 li:hover {
+  background: #00669e;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.63);
+  color: #ffffff;
 }
 .lastItem {
   width: 100%;
@@ -59,12 +91,36 @@
   border-radius: 8px;
   width: 100%;
   height: 3rem;
-  border: 2px solid black;
+  border: 2px solid #00669e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .last-btn1 {
   height: 3rem;
   border-radius: 8px;
+  border: 2px solid #00669e;
   color: #b1b1b1;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.dropDown-icon {
+  width: 1rem;
+  height: auto;
+  color: #00669e;
+}
+.menu-card1::-webkit-scrollbar {
+  background-color: #f2f2f2;
+  width: 0.5rem;
+}
+.lastMenu-card1::-webkit-scrollbar {
+  background-color: #f2f2f2;
+  width: 0.5rem;
 }

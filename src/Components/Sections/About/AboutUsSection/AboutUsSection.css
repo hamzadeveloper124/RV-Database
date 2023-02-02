@@ -1,0 +1,64 @@
+.AboutUsSection-container {
+  height: 100vh;
+
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  z-index: 100;
+}
+.aboutUs-contentContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutUs-content {
+  width: 85%;
+  height: 80%;
+}
+.aboutUs-h1 {
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  color: #00669e;
+}
+.aboutUs-firstPara {
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  color: black;
+  margin-top: 1.5rem;
+}
+.aboutUs-secondPara {
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  color: black;
+  margin-top: 1.5rem;
+}
+
+.aboutUs-imgContainer {
+  background-color: red;
+  background-image: url("../../../Svg/aboutUs_rv.svg");
+  background-size: cover;
+  background-position: center;
+}
+.rdMoreBtn-about {
+  all: initial;
+  margin-top: 3.5rem;
+}
+.rdMore-link-about {
+  all: inherit;
+  cursor: pointer;
+  color: #ffff;
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  box-shadow: 0px 4px 10px #000000;
+  background-color: #00669e;
+  border-radius: 8px;
+  padding: 8px 26px;
+}

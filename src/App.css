@@ -21,6 +21,3 @@
 }
 
 /* Style the thumb when it's hovered over */
-::-webkit-scrollbar-thumb:hover {
-  background-color: #555; /* color of the thumb when hovered over */
-}
