@@ -1,0 +1,17 @@
+.LoginForm-container {
+  background-color: green;
+  height: 87vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  width: 80%;
+  height: 80%;
+  background-color: aqua;
+}
+.remember-recoverContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
