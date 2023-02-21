@@ -3,41 +3,34 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 80vh;
-  background-image: url("../../../Svg/bg.svg");
-  background-size: cover;
-  background-position: center;
-  position: relative;
 
   z-index: 100;
+}
+.hero-container {
+  margin-top: 10rem;
 }
 
 .item1 {
   width: 100%;
   height: auto;
-  position: inherit;
 
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  margin-top: 12rem;
 }
 
 .card-container {
-  position: inherit;
-  bottom: -7rem;
+  margin-top: 10rem;
   z-index: 2;
-  display: grid;
-  grid-template-columns: 0.8fr 1.2fr;
-  grid-template-rows: 1fr;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card1 {
-  grid-column: 1 / 2;
   padding-top: 0.2rem;
   padding-bottom: 3rem;
-  width: 85%;
+  width: 75%;
   justify-self: end;
   display: flex;
   flex-wrap: wrap;
@@ -53,39 +46,8 @@
   flex-wrap: wrap;
   position: relative;
   justify-content: space-between;
-  width: 90%;
+  width: 94%;
   height: 90%;
-}
-
-.card2 {
-  grid-column: 2 / 3;
-  width: 90%;
-  height: 75%;
-  align-self: end;
-  background-color: #ffffff;
-  border-top-right-radius: 28px;
-  border-bottom-right-radius: 28px;
-  box-shadow: 8px 8px 13px rgba(0, 0, 0, 0.66);
-  display: flex;
-  flex-wrap: wrap;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.card2-content {
-  display: flex;
-  flex-wrap: wrap;
-  position: relative;
-  justify-content: space-between;
-  width: 90%;
-  height: 70%;
-}
-.card2-item {
-  width: 50%;
-}
-.card2-item:nth-child(1) {
-  width: 100%;
 }
 
 .text-container {
@@ -127,7 +89,7 @@
   text-transform: uppercase;
 }
 .search-button {
-  background-color: #00669e;
+  background-color: #003653;
   color: white;
   box-shadow: 0px 4px 10px rgba(0, 102, 158, 0.29);
   border-radius: 8px;
@@ -144,6 +106,7 @@
   font-size: 1.5rem;
   line-height: 22px;
   position: relative;
+  margin-top: 2rem;
 }
 
 .search-button:hover {
@@ -167,4 +130,10 @@
   transition: color 0.2s ease;
 }
 
-/* responsiveness mohile/tablet */
+/* Media Queries */
+/* Tablet */
+@media (max-width: 800px) {
+  .text-container h1 {
+    font-size: 3rem;
+  }
+}

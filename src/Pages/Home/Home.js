@@ -6,7 +6,8 @@ import Navbar from "../../Components/Header/Navbar";
 import Section1 from "../../Components/Sections/Home/Section1/Section1";
 import Section2 from "../../Components/Sections/Home/Section2/Section2";
 import Section3 from "../../Components/Sections/Home/Section3/Section3";
-import Section4 from "../../Components/Sections/Home/Section4/Section4";
+import "./Home.css";
+
 import { getData } from "../../Redux/Actions/ApiFetch";
 
 function Home() {
@@ -22,7 +23,7 @@ function Home() {
       <Section1 />
       <Section2 />
       <Section3 />
-      <Section4 />
+
       <Footer />
     </div>
   );

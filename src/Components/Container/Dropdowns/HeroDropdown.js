@@ -15,13 +15,13 @@ function HeroDropdown({ name, text, options, index, lastIndex }) {
 
   console.log("aaaa", lastIndex);
   return (
-    <div className={index === lastIndex || index === 6 ? "lastItem" : "item"}>
+    <div className={index === lastIndex || index === 8 ? "lastItem" : "item"}>
       {name} <br />
       <button
         ref={menuRef}
         onClick={() => setDropdownOpen((prev) => !prev)}
         className={
-          index === lastIndex || index === 6
+          index === lastIndex || index === 8
             ? "last-btn1"
             : `dropdown_button ${dropdownOpen ? "open" : ""}`
         }
@@ -39,7 +39,7 @@ function HeroDropdown({ name, text, options, index, lastIndex }) {
       {dropdownOpen && (
         <ul
           className={
-            index === lastIndex || index === 6 ? "lastMenu-card1" : "menu-card1"
+            index === lastIndex || index === 8 ? "lastMenu-card1" : "menu-card1"
           }
         >
           {options.map((item, index) => {

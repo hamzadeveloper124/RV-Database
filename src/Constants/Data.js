@@ -73,6 +73,30 @@ export const heroSectionDropDownData = [
     ],
   },
   {
+    name: "Min Generator Wattage",
+    text: `Select Min Generator Wattage`,
+
+    options: [
+      { name: "option" },
+      { name: "option" },
+      { name: "option" },
+      { name: "option" },
+      { name: "option" },
+    ],
+  },
+  {
+    name: "Max Generator Wattage",
+    text: `Select Max Generator Wattage`,
+
+    options: [
+      { name: "option" },
+      { name: "option" },
+      { name: "option" },
+      { name: "option" },
+      { name: "option" },
+    ],
+  },
+  {
     name: "Chassis",
     text: `Select Chassis`,
     options: [

@@ -1,0 +1,7 @@
+.hero-section {
+  background-image: url("../../Components/Svg/bg.svg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 750px;
+}

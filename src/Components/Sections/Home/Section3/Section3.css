@@ -1,5 +1,4 @@
 .sec3Container {
-  height: 80vh;
   background-image: url("../../../Svg/sec3-bg.svg");
   background-size: cover;
   background-position: center;
@@ -7,6 +6,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 750px;
 }
 .readAbout {
   background: rgba(0, 0, 0, 0.51);
