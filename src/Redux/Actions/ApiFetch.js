@@ -1,16 +1,15 @@
-import axios from "axios";
-import { API_STRUCTURE } from "../Reducers/AuthReducer";
+// import axios from "axios";
 
-export const getData = () => {
-  return async (dispatch) => {
-    try {
-      const reponse = await axios.get(
-        "https://jsonplaceholder.typicode.com/todos"
-      );
+// export const getData = () => {
+//   return async (dispatch) => {
+//     try {
+//       const reponse = await axios.get(
+//         "https://jsonplaceholder.typicode.com/todos"
+//       );
 
-      dispatch({ type: API_STRUCTURE, payload: reponse.data });
-    } catch (e) {
-      console.log("errorf", e);
-    }
-  };
-};
+//       dispatch({ type: API_STRUCTURE, payload: reponse.data });
+//     } catch (e) {
+//       console.log("errorf", e);
+//     }
+//   };
+// };

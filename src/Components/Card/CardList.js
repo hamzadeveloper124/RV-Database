@@ -27,12 +27,6 @@ function CardList({ image, name, price, text, carConfig, link }) {
             View RV
           </NavLink>
         </button>
-        {/*  
-        {cardData.map(({ link }) => (
-          <NavLink to={link} className="">
-            View RV
-          </NavLink>
-        ))} */}
       </div>
     </div>
   );

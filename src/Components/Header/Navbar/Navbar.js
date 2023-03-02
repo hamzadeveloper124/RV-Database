@@ -1,8 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
-import "../../Assets/Fonts/Fonts.css";
-import SignUp_icon from "../Svg/SignUp_icon.svg";
+import "../../../Assets/Fonts/Fonts.css";
+import SignUp_icon from "../../Svg/SignUp_icon.svg";
 
 function Navbar1() {
   return (

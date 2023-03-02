@@ -1,16 +1,13 @@
 .footer {
-  height: 40vh;
-
   display: flex;
   flex-direction: column;
+  background-color: #00669e;
 }
 .footer1 {
-  height: 35vh;
-
+  margin-top: 2rem;
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  background-color: #00669e;
+  display: grid;
+  grid-template-columns: 17.5% 17.5% 35% 30%;
 }
 .nav_link {
   all: initial;
@@ -21,7 +18,7 @@
 }
 .left1 {
   height: 100%;
-  width: 17.5%;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,7 +30,7 @@
 }
 .left2 {
   height: 100%;
-  width: 17.5%;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,7 +41,7 @@
 }
 .right1 {
   height: 100%;
-  width: 35%;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,7 +58,7 @@
 }
 .right2 {
   height: 100%;
-  width: 30%;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,11 +74,12 @@
 }
 
 .logo_container {
-  width: 50%;
+  width: 100%;
 
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 2rem;
 }
 .fb-container {
   width: 3rem;
@@ -171,4 +169,54 @@
 
   color: rgba(255, 255, 255, 0.52);
   font-size: 22px;
+}
+/* Media Queries */
+/* Tablet */
+@media (max-width: 1230px) {
+  .footer1 {
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+  }
+  .right2 {
+    width: 150%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 810px) {
+  .nav_link,
+  .right2 h1 {
+    font-size: 1.2rem;
+  }
+  .right2 {
+    width: 180%;
+  }
+  .right1 {
+    margin-top: 0.3rem;
+  }
+  .footer2 h1 {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 510px) {
+  .nav_link,
+  .right2 h1 {
+    font-size: 0.9rem;
+  }
+}
+/* Mobile */
+@media (max-width: 470px) {
+  .footer2 h1 {
+    font-size: 0.6rem;
+  }
+  .right2 {
+    width: 200%;
+  }
+}
+@media (max-width: 390px) {
+  .nav_link,
+  .right2 h1 {
+    font-size: 0.7rem;
+  }
 }

@@ -2,11 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  height: 87vh;
-  background-image: url("../../../Svg/about_bg.svg");
-  background-size: cover;
-  background-position: center;
+
+  height: 650px;
   position: relative;
 
   z-index: 100;

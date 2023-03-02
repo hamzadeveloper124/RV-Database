@@ -23,7 +23,7 @@
   text-align: center;
 }
 .readAbout h1 {
-  width: 30%;
+  width: 100%;
   color: #ffffff;
   font-family: "Radian";
   font-style: normal;
@@ -73,3 +73,15 @@
 
   margin: 0;
 }
+
+/* Media Queries */
+/* Tablet */
+@media (max-width: 1290px) {
+  .readAbout h1 {
+    font-size: 2rem;
+  }
+  .para1,
+  .para2 {
+    font-size: 1.2rem;
+  }
+} ;

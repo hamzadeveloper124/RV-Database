@@ -1,10 +1,9 @@
 .AboutUsSection-container {
-  height: 100vh;
-
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
   z-index: 100;
+  height: 750px;
 }
 .aboutUs-contentContainer {
   display: flex;
@@ -19,14 +18,14 @@
   font-family: "Radian";
   font-style: normal;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 3rem;
   color: #00669e;
 }
 .aboutUs-firstPara {
   font-family: "Radian";
   font-style: normal;
   font-weight: 500;
-  font-size: 25px;
+  font-size: 1.5rem;
   color: black;
   margin-top: 1.5rem;
 }
@@ -34,7 +33,7 @@
   font-family: "Radian";
   font-style: normal;
   font-weight: 500;
-  font-size: 25px;
+  font-size: 1.5rem;
   color: black;
   margin-top: 1.5rem;
 }
@@ -44,6 +43,8 @@
   background-image: url("../../../Svg/aboutUs_rv.svg");
   background-size: cover;
   background-position: center;
+  height: 100%;
+  width: 100%;
 }
 .rdMoreBtn-about {
   all: initial;
@@ -61,4 +62,27 @@
   background-color: #00669e;
   border-radius: 8px;
   padding: 8px 26px;
+}
+
+/* Media Queries */
+/*  Tablet*/
+@media (max-width: 690px) {
+  .aboutUs-firstPara,
+  .aboutUs-secondPara {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 530px) {
+  .aboutUs-firstPara,
+  .aboutUs-secondPara {
+    font-size: 1.1rem;
+  }
+  .aboutUs-h1 {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 400px) {
+  .aboutUs-h1 {
+    font-size: 2.2rem;
+  }
 }

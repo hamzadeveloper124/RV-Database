@@ -4,6 +4,7 @@ import rv3 from "../Components/Svg/rv3.svg";
 import km from "../Components/Svg/km.svg";
 import cc from "../Components/Svg/cc.svg";
 import transmission from "../Components/Svg/transmission.svg";
+import { Rating } from "@mui/material";
 export const heroSectionDropDownData = [
   {
     name: "Model",
@@ -220,5 +221,44 @@ export const cardData = [
       { image: transmission, value: "manual" },
     ],
     link: "/",
+  },
+];
+
+export const ReviewTableData = [
+  {
+    ID: 1,
+    Name: "Holiday Rambler - Invicta 32Rw",
+    Length: `39' 10"/ 12 METERS `,
+    Year: "2022",
+    Overall: 4,
+    Bathroom: 3,
+    Kitchen: 2,
+    Interior: 4,
+    Exterior: 5,
+    Review: "I love this RV",
+  },
+  {
+    ID: 2,
+    Name: "Holiday Rambler - Invicta 32Rw",
+    Length: `39' 10"/ 12 METERS `,
+    Year: "2022",
+    Overall: 4,
+    Bathroom: 3,
+    Kitchen: 2,
+    Interior: 4,
+    Exterior: 5,
+    Review: "I love this RV",
+  },
+  {
+    ID: 3,
+    Name: "Holiday Rambler - Invicta 32Rw",
+    Length: `39' 10"/ 12 METERS `,
+    Year: "2022",
+    Overall: 4,
+    Bathroom: 3,
+    Kitchen: 2,
+    Interior: 4,
+    Exterior: 5,
+    Review: "I love this RV",
   },
 ];

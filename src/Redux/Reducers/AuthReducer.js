@@ -1,17 +1,17 @@
 // user management
 
-export const API_STRUCTURE = "API_STRUCTURE";
+export const IS_SIGNEDIN = "IS_SIGNEDIN";
 
 const initial_state = {
-  apiData: [],
+  isSignedIn: false,
 };
 
 const AuthReducer = (state = initial_state, action) => {
   switch (action.type) {
-    case API_STRUCTURE:
+    case IS_SIGNEDIN:
       return {
         ...state,
-        apiData: action.payload,
+        isSignedIn: action.payload,
       };
 
     default: {
