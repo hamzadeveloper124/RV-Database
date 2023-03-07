@@ -4,6 +4,25 @@ import rv3 from "../Components/Svg/rv3.svg";
 import km from "../Components/Svg/km.svg";
 import cc from "../Components/Svg/cc.svg";
 import transmission from "../Components/Svg/transmission.svg";
+import RvImage from "../Components/Svg/RvImageDetails.svg";
+import RvImage2 from "../Components/Svg/RvImageDetails2.svg";
+import MakeIcon from "../Components/Svg/Make.svg";
+import LPGIcon from "../Components/Svg/LPG.svg";
+import BlackWaterIcon from "../Components/Svg/BlackWater.svg";
+import FreshWaterIcon from "../Components/Svg/FreshWater.svg";
+import GrayWaterIcon from "../Components/Svg/GrayWater.svg";
+import HotWaterIcon from "../Components/Svg/HotWater.svg";
+import GeneratorIcon from "../Components/Svg/Generator.svg";
+import ChassisIcon from "../Components/Svg/Chassis.svg";
+import ModelYearIcon from "../Components/Svg/ModelYear.svg";
+import MSRFIcon from "../Components/Svg/MSRF.svg";
+import LengthIcon from "../Components/Svg/Length.svg";
+import FuelIcon from "../Components/Svg/Fuel.svg";
+import FuelCapacityIcon from "../Components/Svg/FuelCapacity.svg";
+import TanklessWaterIcon from "../Components/Svg/TanklessWater.svg";
+import SeatbeltsIcon from "../Components/Svg/Seatbelts.svg";
+import SleepsIcon from "../Components/Svg/Sleeps.svg";
+
 import { Rating } from "@mui/material";
 export const heroSectionDropDownData = [
   {
@@ -150,6 +169,7 @@ export const heroSectionDropDownData2 = [
 
 export const cardData = [
   {
+    id: 1,
     image: rv1,
 
     name: "Rv Name here",
@@ -162,6 +182,7 @@ export const cardData = [
     ],
   },
   {
+    id: 2,
     image: rv2,
 
     name: "Rv Name here",
@@ -174,6 +195,7 @@ export const cardData = [
     ],
   },
   {
+    id: 3,
     image: rv3,
 
     name: "Rv Name here",
@@ -186,6 +208,7 @@ export const cardData = [
     ],
   },
   {
+    id: 4,
     image: rv1,
 
     name: "Rv Name here",
@@ -198,6 +221,7 @@ export const cardData = [
     ],
   },
   {
+    id: 5,
     image: rv2,
 
     name: "Rv Name here",
@@ -210,6 +234,7 @@ export const cardData = [
     ],
   },
   {
+    id: 6,
     image: rv3,
 
     name: "Rv Name here",
@@ -261,4 +286,56 @@ export const ReviewTableData = [
     Exterior: 5,
     Review: "I love this RV",
   },
+];
+
+export const RvImages = [RvImage, RvImage2, RvImage, RvImage2];
+
+export const DescriptionTableColumn1 = [
+  {
+    icon: MakeIcon,
+    text: "Holiday Rambler - Invicta 32RV",
+    heading: "Make and Manufacture",
+  },
+  { icon: LPGIcon, text: "106 lb / 48.1 kgs", heading: "LPG Capacity" },
+  {
+    icon: BlackWaterIcon,
+    text: "50 Gallons / 189.2 litres",
+    heading: "Black Water",
+  },
+  {
+    icon: FreshWaterIcon,
+    text: "100 Gallons / 189.2 litres",
+    heading: "Fresh Water",
+  },
+  {
+    icon: GrayWaterIcon,
+    text: "100 Gallons / 189.2 litres",
+    heading: "Gray Water",
+  },
+  {
+    icon: HotWaterIcon,
+    text: "100 Gallons / 189.2 litres",
+    heading: "Hot Water Capacity",
+  },
+  {
+    icon: GeneratorIcon,
+    text: "5500 Generator",
+    heading: "Generator",
+  },
+  {
+    icon: ChassisIcon,
+    text: "Ford Motorhome Chassis ",
+    heading: "Chassis",
+  },
+];
+
+export const DescriptionTableColumn2 = [
+  { icon: ModelYearIcon, text: "2022" },
+  { icon: MSRFIcon, text: "9000,275" },
+  { icon: LengthIcon, text: `34' 78" / 10.5 meters` },
+  { icon: FuelIcon, text: "Gas" },
+  { icon: FuelCapacityIcon, text: "100 Gallons / 189.2 litres" },
+  { icon: TanklessWaterIcon, text: "No" },
+  { icon: SeatbeltsIcon, text: "0" },
+  { icon: SleepsIcon, text: "7" },
 ];

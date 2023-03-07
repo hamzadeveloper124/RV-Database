@@ -19,15 +19,12 @@
   transform: scale(1);
 }
 .card-class:hover {
-  /* Add your own hover styling here, such as a change in background color */
   background-color: #f2f2f2;
-
-  /* Add a slight elevation to give the impression of a hover effect */
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-
   transform: scale(1.05);
 }
 .name_price {
+  text-decoration: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
